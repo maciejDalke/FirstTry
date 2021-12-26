@@ -6,7 +6,6 @@ clear = lambda: o.system('cls')
 
 # listy
 options = ["rock", "paper", "scissors", "lizard", "spock"]
-options_pl = ["kamien", "papier", "nozyczki", "jaszczurka", "spok"]
 options_computer = ["rock", "paper", "scissors", "lizard", "spock", "scissors"]
 
 # punktacja
@@ -43,12 +42,12 @@ while True:
         ownSettings = True
         clear()
 
-    elif user_input not in options and user_input not in options_pl:
+    elif user_input not in options:
         print("""
     Nie można tego zinterpretować wybierz jedno z:
     {0} 
                                  Quit lub q aby wyjść 
-        """.format(options, options_pl))
+        """.format(options))
         continue
 
     else:
@@ -56,7 +55,7 @@ while True:
         options_computer[5] = randomly_selected_for_a_computer
 
         # rock: 0
-        if user_input == options[0] or user_input == options_pl[0]:
+        if user_input == options[0]:
             if randomly_selected_for_a_computer == "rock":
                 print("It's draw. Two rocks make sparks")
                 draws += 1
@@ -74,7 +73,7 @@ while True:
                 computer_points += 1
 
         # paper: 1
-        elif user_input == options[1] or user_input == options_pl[1]:
+        elif user_input == options[1]:
             if randomly_selected_for_a_computer == "rock":
                 print("You win! Paper covers Rock")
                 player_points += 1
@@ -92,7 +91,7 @@ while True:
                 player_points += 1
 
         # scissors: 2
-        elif user_input == options[2] or user_input == options_pl[2]:
+        elif user_input == options[2]:
             if randomly_selected_for_a_computer == "rock":
                 print("You lost. Scissors were destroyed by Rock")
                 computer_points += 1
@@ -110,7 +109,7 @@ while True:
                 computer_points += 1
 
         # lizard 3
-        elif user_input == options[3] or user_input == options_pl[3]:
+        elif user_input == options[3]:
             if randomly_selected_for_a_computer == "rock":
                 print("You lost. Lizard has been crushes by a Rock")
                 computer_points += 1
@@ -128,7 +127,7 @@ while True:
                 player_points += 1
 
         # spock 4
-        elif user_input == options[4] or user_input == options_pl[4]:
+        elif user_input == options[4]:
             if randomly_selected_for_a_computer == "rock":
                 print("You win! Spock vaporized Rock")
                 player_points += 1
