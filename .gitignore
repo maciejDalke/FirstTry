@@ -1,4 +1,5 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-examples.py
+hide/examples.py
+hide/program_math.py
