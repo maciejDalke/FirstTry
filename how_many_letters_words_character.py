@@ -1,3 +1,4 @@
+import re as regular_expression
 print("How many letters/words/characters... in phrase program")
 all_choice = False
 vowel_list = ['a', 'e', 'i', 'o', 'u', 'y',
@@ -10,18 +11,21 @@ brackets_list = ['[', ']', '{', '}', '(', ')']
 symbols_list = ['@', '#', '$', '%', '^', '&', '*', '-', '_', '+', '=', '|', '/']
 # Ala ma kota. Kot ma Ale w dupie!
 
-# TODO: Dodanie możliwości wczytywania ciągu z pliku
-
+read_file = input("read file [file] or phrase write [phrase]: ") == "file" and True or False
+if read_file:
+    user_input = open(input("Write file name and directory if another: "), "rt").read()
 # simple one with writing string
+else:
+    user_input = input("Write phrase: ").strip()
 user_chose = "o"
-user_input = input("Write phrase: ").strip()
 if user_input is not ["", " "]:
     while True:
-        # TODO: wyrażenia regularne / zmiana input / liczenie samogłosek czy spółgłosek
+        # TODO: wyrażenia regularne/ zmienić sposób liczenia wyrazów
 
         # Show phrase
         if user_chose[0] == "s" or user_chose[0] == str(0):
-            print("Your phrase [", user_input, "]")
+            print("""Your phrase:
+[{0}]""".format(user_input))
 
         # Show all
         if user_chose[0] == "a" or user_chose[0] == str(5):
@@ -29,13 +33,11 @@ if user_input is not ["", " "]:
 
         # How many words
         if user_chose[0] == "w" or user_chose[0] == str(1) or all_choice:
-            number = 0
-            index = 0
-            for x in user_input:
-                if user_input[index].lower() in [' ']:
-                    number += 1
-                index += 1
-            print("Your phrase [", user_input, "]. Have", (number + 1), "words.")
+            pattern = regular_expression.compile(r'\n')
+            result = pattern.sub(' ', user_input)
+            pattern = regular_expression.compile(r'\s')
+            result = pattern.split(result)
+            print("Your phrase have", len(result), "words.")
 
         # How many letters
         if user_chose[0] == "l" or user_chose[0] == str(2) or all_choice:
