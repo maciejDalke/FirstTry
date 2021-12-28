@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b5a96ca-9f60-4618-89b6-ea73e5911cee" name="Changes" comment="add how many letters/words game to repo">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Imperator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/save_directory_in_json_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FirstProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FirstProject.iml" afterDir="false" />
+    <list default="true" id="8b5a96ca-9f60-4618-89b6-ea73e5911cee" name="Changes" comment="few changes to letterword program and some cleaning">
+      <change afterPath="$PROJECT_DIR$/file_editor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/how_many_letters_words_character.py" beforeDir="false" afterPath="$PROJECT_DIR$/how_many_letters_words_character.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mora_game.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +40,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="22qFUWudL0QdebVBAX1DfRCZQqF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,6 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Software/Programowanie/jetbrains-polish-dictionary-master/pl_PL.dic" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
@@ -198,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640605467486</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="few changes to letterword program and some cleaning">
+      <created>1640704001035</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640704001035</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +223,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
     <MESSAGE value="little changes" />
     <MESSAGE value="add how many letters/words game to repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add how many letters/words game to repo" />
+    <MESSAGE value="few changes to letterword program and some cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="few changes to letterword program and some cleaning" />
   </component>
 </project>
