@@ -20,7 +20,7 @@ else:
 user_chose = "o"
 if user_input is not ["", " "]:
     while True:
-        # TODO: wyrażenia regularne/ zmienić sposób liczenia wyrazów
+        # TODO: wyrażenia regularne/
 
         # Show phrase
         if user_chose[0] == "s" or user_chose[0] == str(0):

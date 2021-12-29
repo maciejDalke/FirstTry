@@ -1,12 +1,11 @@
 import random as r
+print("Witaj w grze zgadnij liczbę")
 
 numberOfGuesses = 1
 ownSettings = False
-aNumberToGuess = 0
 bottom_number = 1
 top_number = 100
 
-print("Witaj w grze zgadnij liczbę")
 aNumberToGuess = r.randint(bottom_number, top_number)
 print("Zgadnij liczbę z przedziału: " + str(bottom_number) + " - " + str(top_number))
 while True:
@@ -20,6 +19,7 @@ while True:
             ownSettings = False
             print("Odgadnij liczbę z przedziału: " + str(bottom_number) + " - " + str(top_number))
             aNumberToGuess = r.randint(bottom_number, top_number)
+            numberOfGuesses = 0
         else:
             print("błędnie podany zakres ustawienia nie zapisane")
     else:
