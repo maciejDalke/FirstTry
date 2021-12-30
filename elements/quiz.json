@@ -1,1 +1,11 @@
-{"questions": [{"question_id": 0, "question": "What is CPU", "answer": "central processing unit", "difficulty": "", "domain": ""}, {"question_id": 1, "question": "What is GPU", "answer": "graphic processing unit", "difficulty": "", "domain": ""}, {"question_id": 2, "question": "What is PSU", "answer": "power supply", "difficulty": "", "domain": ""}, {"question_id": 3, "question": "What is RAM", "answer": "random access memory", "difficulty": "", "domain": ""}, {"question_id": 4, "question": "What is ROM", "answer": "read only memory", "difficulty": "", "domain": ""}, {"question_id": 5, "question": "What is HDD", "answer": "hard disc drive", "difficulty": "", "domain": ""}, {"question_id": 6, "question": "What is SSD", "answer": "solid state drive", "difficulty": "", "domain": ""}], "last_score": 7}
+{
+  "questions": [
+    {
+      "question_id": 0,
+      "question": "What is CPU",
+      "answer": "central processing unit",
+      "difficulty": "",
+      "domain": ""
+    },
+    {
+      "question_id": 1, "question": "What is GPU", "answer": "graphic processing unit", "difficulty": "", "domain": ""}, {"question_id": 2, "question": "What is PSU", "answer": "power supply", "difficulty": "", "domain": ""}, {"question_id": 3, "question": "What is RAM", "answer": "random access memory", "difficulty": "", "domain": ""}, {"question_id": 4, "question": "What is ROM", "answer": "read only memory", "difficulty": "", "domain": ""}, {"question_id": 5, "question": "What is HDD", "answer": "hard disc drive", "difficulty": "", "domain": ""}, {"question_id": 6, "question": "What is SSD", "answer": "solid state drive", "difficulty": "", "domain": ""}], "last_score": 7}

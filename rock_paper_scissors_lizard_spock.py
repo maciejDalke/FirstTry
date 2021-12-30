@@ -1,8 +1,6 @@
 import random as r
-import os as o
 
 ownSettings = False
-clear = lambda: o.system('cls')
 
 # listy
 options = ["rock", "paper", "scissors", "lizard", "spock"]
@@ -40,7 +38,6 @@ while True:
             print("advantage is [{}]".format(advantage_enable and "enable" or "disable"))
 
         ownSettings = True
-        clear()
 
     elif user_input not in options:
         print("""
